@@ -1,3 +1,30 @@
-p{
-    color: green;
+body{
+    background-color: gray;
+}
+header{
+    background-color: aqua;
+    padding: 3%;
+}
+
+/* classe atribuida para a div que vai receber o logotipo */
+.logo{
+    background-color: darkgoldenrod;
+}
+
+nav{
+    background-color: azure;
+}
+main{
+    background-color: darkgreen;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section{
+    background-color: hotpink;
+}
+footer{
+    background-color: blueviolet;
+    padding: 3%;
 }
