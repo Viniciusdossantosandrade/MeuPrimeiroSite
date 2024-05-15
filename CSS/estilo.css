@@ -1,19 +1,21 @@
 body{
     background-color: gray;
 }
+
 header{
-    background-color: aqua;
+    background-color: rgb(77, 73, 124);
     padding: 3%;
 }
 
-/* classe atribuida para a div que vai receber o logotipo */
+/* Classe Atribuida para a div que vai receber o logotipo */
 .logo{
-    background-color: darkgoldenrod;
+    background-color: rgb(161, 140, 84);
 }
 
 nav{
     background-color: azure;
 }
+
 main{
     background-color: darkgreen;
     width: 80%;
@@ -24,7 +26,25 @@ main{
 section{
     background-color: hotpink;
 }
+
 footer{
     background-color: blueviolet;
     padding: 3%;
+}
+.cabecalho{
+    padding: 3%;
+}
+.rodape{
+    padding: 3%;
+}
+
+h1,h2{
+    line-height: 3;
+}
+
+p{
+    line-height: 1.5;
+}
+ul li{
+    line-height: 1.5;
 }
