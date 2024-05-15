@@ -1,34 +1,36 @@
 body{
-    background-color: gray;
+    background-image: url(../ing/comida\ bem\ delicia.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 header{
-    background-color: rgb(77, 73, 124);
+ 
     padding: 3%;
 }
 
 /* Classe Atribuida para a div que vai receber o logotipo */
 .logo{
-    background-color: rgb(161, 140, 84);
+
 }
 
 nav{
-    background-color: azure;
+
 }
 
 main{
-    background-color: darkgreen;
+
     width: 80%;
     margin-left: auto;
     margin-right: auto;
 }
 
 section{
-    background-color: hotpink;
+
 }
 
 footer{
-    background-color: blueviolet;
+
     padding: 3%;
 }
 .cabecalho{
@@ -38,13 +40,33 @@ footer{
     padding: 3%;
 }
 
-h1,h2{
+.titulos{
     line-height: 3;
+    text-align: center;
+    font-weight: bold;
 }
 
 p{
     line-height: 1.5;
+    font-size: 1.2em;
+    color: floralwhite;
 }
 ul li{
     line-height: 1.5;
+    font-size: 1,2em;
+    color: floralwhite;
+}
+h1{
+    font-size: 2em;
+    color: green
+}
+h2{
+    font-size: 1.5em;
+    color: green
+}
+.logo img {
+    width: 35%;
+    height: auto;
+
+
 }
