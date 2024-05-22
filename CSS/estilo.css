@@ -2,31 +2,33 @@ body{
     background-image: url(../ing/comida\ bem\ delicia.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: "Lobster", sans-serif;
 }
 
 header{
  
     padding: 3%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 /* Classe Atribuida para a div que vai receber o logotipo */
 .logo{
-
+    align-items: center;
 }
-
 nav{
 
 }
 
 main{
-
     width: 80%;
     margin-left: auto;
     margin-right: auto;
 }
 
 section{
-
+    text-align: center;
 }
 
 footer{
@@ -50,6 +52,7 @@ p{
     line-height: 1.5;
     font-size: 1.2em;
     color: floralwhite;
+    text-align: justify;
 }
 ul li{
     line-height: 1.5;
@@ -58,15 +61,36 @@ ul li{
 }
 h1{
     font-size: 2em;
-    color: green
+    color: floralwhite
 }
 h2{
     font-size: 1.5em;
-    color: green
+    color: rgb(251, 252, 251)
 }
 .logo img {
-    width: 35%;
+    width: 30%;
+    max-width: 100%;
     height: auto;
-
-
+}
+.caixa-imagem {
+    text-align: center;
+    margin-top: 1%;
+}
+figure {
+    text-align: center;
+    display: inline-block;
+}
+figure img{
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+figure caption{
+    margin: 1.0em;
+    text-align: center;
+    color: floralwhite;
+}
+section{
+    
 }
