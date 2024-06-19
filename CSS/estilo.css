@@ -1,5 +1,5 @@
 body{
-    background-image: url(..ing/)
+    background-image: url(../ing/fst.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     font-family: "Lobster", sans-serif;
@@ -30,6 +30,7 @@ header{
 /* Classe Atribuida para a div que vai receber o logotipo */
 .logo{
     align-items: center;
+    width: 300px;
 }
 nav{
 
